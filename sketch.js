@@ -1,5 +1,5 @@
 // Create the character level generator with a pre trained model
-const rnn = ml5.charRNN('models/asyoulikeit/', modelLoaded);
+const rnn = ml5.charRNN('models/anallegoryofourpoetry.txt/', modelLoaded);
 
 // When the model is loaded
 function modelLoaded () {
@@ -7,6 +7,6 @@ function modelLoaded () {
 }
 
 // Generate content
-rnn.generate({ seed: 'the meaning of pizza is' }, (err, results) => {
+rnn.generate({ seed: 'we have' }, (err, results) => {
   console.log(results);
 });
