@@ -2,7 +2,7 @@
 const rnn = ml5.charRNN('models/asyoulikeit/', modelLoaded);
 
 // When the model is loaded
-function modelLoaded() {
+function modelLoaded () {
   console.log('Model Loaded!');
 }
 
