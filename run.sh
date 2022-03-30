@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This are the hyperparameters you can change to fit your data
-python train.py --data_path=asyoulikeit.txt \
+python train.py --data_path=anallegoryofourpoetry.txt \
 --rnn_size 128 \
 --num_layers 2 \
 --seq_length 50 \
